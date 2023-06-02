@@ -163,11 +163,17 @@ padding-left:20px;
 text-align:centre;
 
 }
+ol{
+  background-color: black;
+  color: white;
+}
 li{
 font-size: 25px;
-color:greenyellow;
+color: white;
 font-weight: bold;
 text-align:centre;
+background-color: black;
+
   }
 Form{
 font-size:42px;
@@ -233,10 +239,13 @@ sectionseven{
   color:black;
   width: 100%;
 }
+li  a:hover{
+  background-color:blue;
+}
 marquee{
   font-size:18px;
   width: 94%;
 }
 n{
-  color:black
+  color:black;
 }
