@@ -39,7 +39,11 @@ color:red;
 sectionfive{
   font-variant: normal ;
 }
-
+marquee{
+color:greenyellow;
+  font-size:large;
+  background-color: red;
+}
 
 nav .LOGO{
 font-size: 33px;
@@ -230,20 +234,48 @@ th{
   background-color:black;
   font-style: italic;
   COLOR:RED;
-}
-sectionseven{
-  color:black;
-  width: 100%;
+
 }
 li  a:hover{
   background-color:blue;
 }
 marquee{
-  font-size:17px;
+  font-size:18px;
   width: 93%;
-  background-color:red;
-  color:white;
 }
 n{
   color:black;
+}
+section1{
+  background-color: black;
+  color: white;
+  text-align: center;
+ 
+}
+.fa {
+  padding: 20px;
+  font-size: 35px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook{
+  background: #3b5998;
+  color: whi;
+}
+.fa-youtube{
+  background: #bb0000;
+}
+.fa-twitter{
+  background: #55acee;
+}
+.fa-instagram{
+  background:black;
+}
+.fa-whatsapp{
+  background:green;
+}
+.fa-google{
+  background:black;
 }
