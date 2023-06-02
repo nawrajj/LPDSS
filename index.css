@@ -39,11 +39,7 @@ color:red;
 sectionfive{
   font-variant: normal ;
 }
-marquee{
-color:greenyellow;
-  font-size:large;
-  background-color: red;
-}
+
 
 nav .LOGO{
 font-size: 33px;
@@ -243,8 +239,10 @@ li  a:hover{
   background-color:blue;
 }
 marquee{
-  font-size:18px;
-  width: 94%;
+  font-size:17px;
+  width: 93%;
+  background-color:red;
+  color:white;
 }
 n{
   color:black;
