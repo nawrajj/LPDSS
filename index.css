@@ -23,7 +23,7 @@ scroll-behavior:smooth;
 
 
 nav{
-position:static;
+position:relative;
 height: 130px;
 width: 100%;
 background:blue;
