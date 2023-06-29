@@ -26,6 +26,7 @@
   nav ul li a:hover{
   color:red;
   background-color: black;
+
   }
   sectionfive{
     font-variant: normal ;
@@ -37,8 +38,7 @@
   }
   
  
-  
-  }
+
   ul{
   display: flex;
   list-style: none;
