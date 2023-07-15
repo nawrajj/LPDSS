@@ -1,94 +1,77 @@
+
+ 
 *{
     margin:0;
-  padding:0;
-  text-decoration:none;
-  box-sizing: border-box;
-  }
-  html{
-  scroll-behavior:smooth;
-  
-  }
-  body{
-  font-family: sans-serif;
+    padding:0;
+    text-decoration:none;
+    box-sizing:border-box ;
+
+    }
+    html{
+        
+        scroll-behavior:smooth;
+    }
+    
+    body {
+        
+        font-family: sans-serif;
   background-size: cover;
   background-position: center;
   height: 109vh;
   scroll-behavior:smooth;
-  
-  
-  }
-  
-  
-  
-  
-  
-  
-  sectionfive{
-    font-variant: normal ;
-  }
-  marquee{
+ 
+        
+    }
+    
+    nav{
+        background-color:purple;
+        width:100%;
+        
+    position:absolute;
+    
+        
+    }
+    nav .logo{
+        
+        color:gold;
+        font-size:30px;
+        font-style:italic ;
+        font-weight:bolder;
+        
+    }
+    
+    marquee{
   color:greenyellow;
     font-size:large;
     background-color: red;
+    width:90%;
   }
-  
- 
-  
-  }
-  ul{
-  display: flex;
-  list-style: none;
-  margin:0;
-  
-  }
-  nav ul li a{
-  display: block;
-  color:whitesmoke;
-  font-size: 23px;
-  line-height: 22px;
-  margin-left:10%;
-  font-family:arial;
-  font-style:italic;
-  border-top:1px solid rgba(255, 255, 255, 0.1);
-  border-color: 10px solid gold;
-  border-left:  5px solid transparent;
-  transition: 0.4s ease-in-out;
-  padding:0;
-  position:static;
-  
-  }
-  h{
+    
+    h{
   font-size:35px;
   color: blue;
   font-style: italic;
   font-weight:bold ;
   background-color:white;
-  }
-  a.active{
-  background-color:blue;
-  padding: 5px;
-  display: inline-block;
+  
   }
   
-  li a.contact{
-  border-bottom:1px solid rgba(0,0,0,.5) ;
+ ul a:hover{
+      color:yellow;
   }
-  nav li a.contact{
-  border-bottom: 1px solid rgba(255,255,255,.1);
-  }
-  #section {
-    display: flex;
-    padding:10%;
-  margin:5px;
-    align-content: center;
-  height:100%;
-  width:100%;
-    
+
+  
+nav ul li:hover{
+      background-color:blue;
+      color:white;
+      font-size:x-large;
+      font-style:italic ;
+      font-weight:bolder;
   }
   
-  z{
+  p{
     font-style:italic;
-    color:whitesmoke;
+    color:purple ;
     font-size:20px;
     font-weight: bold;
   }
@@ -98,17 +81,7 @@
     color: gold;
     background-color:black;
     font-size:16px;
-  }
-  sectionone{
-    display: flex;
   
-  align-content:center;   
-  height:100%;
-  }
-  p{
-  font-weight: bold;
-  font-size:30px;
-  color:gold;
   }
   h1{
   padding: 25px 0 5px 0px;
@@ -120,40 +93,32 @@
   margin-right: 1px;
   
   }
-  l{
-  font-size: 30px;
-  color:white;
-  font-weight: bold;
-  padding-left:20px;
-  text-align:centre;
   
-  }
+ 
   ol{
-    background-color: black;
-    color: white;
     
-  }
-  ul{
+    color:Red;
     font-size: larger;
-   animation-name: inherit;
-    color: black;
-    font-weight: bold;
+
     
   }
-    y{
-        font-size: 35px;
-        font-weight: bolder;
-        font-style:italic;
-        line-height:0 px;
-        color: gold;
-        margin: bottom 50px;
-        margin-top:20px;
-        font-family: arial;
-        border-image: round;
-        }
+
+
+sectionfive{
     
-      
-  Form{
+    text-align:center ;
+}
+
+
+
+section1{
+    text-align:center ;
+    
+}
+
+
+
+Form{
   font-size:42px;
   text-align:centre;
   background-color:yellow;
@@ -168,82 +133,33 @@
   font-size:32px;
   box-size:32px;
   
-  }
-  radio button{
-  font-size:32px;
-  }
-  h2{
-  color:rgb(238, 230, 11);
-  
-  
-  }
-  
-  search button{
-  font-size:40px;
-  }
-  
-  a{
-  color:orange ;
-  font-size:30px;
-  font-family:arrial;
-  }
+}
 
-  
-  }
-  table{
-    font-size: larger;
-  }
-  href{
-  size:30px;
-  
-  }
-  
-  h4{
-    font-size: small;
-    color: gold;
-  }
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  th{
+table{
+    font-size:xx-larger;
+}
+table, th, td {
+    border:1px solid black;
+    
+} 
+th{
     background-color:black;
-    font-style: italic;
-    COLOR:RED;
-  
-  }
-  li  a:hover{
-    background-color:yellow;
-    color:blueviolet;
-    font-size: 35px;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    lighting-color: whitesmoke;
-    border-color: red;
-  }
-  marquee{
-    font-size:18px;
-    width: 93%;
-  }
-  n{
-    color:black;
-  }
-  section1{
-;
-    text-align: center;
-    background-color: black;
-   
-  }
-  .fa {
+    font-style:italic ;
+    color:red;
+    font-weight:bolder;
+}
+
+
+  fa {
     padding: 20px;
-    font-size: 40px;
+    font-size: 60px;
     width: 55px;
     text-align: center;
     text-decoration:transparent;
     margin: 5px 2px;
   }
   .fa-facebook{
-    background: #3b5998;
+    background-color: #3b5998;
     color: white;
   }
   .fa-youtube{
@@ -266,9 +182,106 @@
     background:black;
     color: white;
   }
-  sectionfive{
-    text-align: center;
+  
+
+
+.container nav.desk
+.container nav.mob{
+    width:100%;
+    height:50px;
+    
+    }
+
+nav.desk ul{
+    margin-left:5px;
+    width:100%;
+    height:50px;
+    list-style:none;
+    
+
+    }
+
+nav.desk ul li{
+    
+
+    font-size:15px;
+    display:inline-block;
+    text-align:center;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:all 0.5s ease;
+    
+
+    
+    
+    }
 
 
 
-  }
+    
+    
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:larger;
+
+    
+    
+    }
+
+nav.mob,
+.toggle{
+    display:none;
+    position:static;
+    }
+
+
+nav.desk{    
+    display:none;
+    }
+
+nav.mob,
+.toggle{
+    display:block;     
+    }
+    
+.toggle{
+
+    float:right;
+    font-size:40px;
+    margin-right:15px;
+    margin-top:-5px;
+    
+
+    }
+    
+.toggle.fa-bars,
+.toggle.fa-times{
+
+    icon-size:35px;
+
+    cursor:pointer;
+    
+    
+    
+    }
+    
+.mob ul{
+    margin-top:15px;
+    background:red;
+    display:none;
+    }
+    
+.mob li{
+    text-transform:uppercase;
+    text-align:center;
+    padding:20px;
+    cursor:pointer;
+    
+    }
+    
+.mob ul.active{
+    display:block;
+}
